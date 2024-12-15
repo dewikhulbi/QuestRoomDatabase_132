@@ -3,7 +3,6 @@ package com.example.meet10.ui.navigation
 interface AlamatNavigasi {
     val route: String
 }
-
 object DestinasiHome : AlamatNavigasi {
     override val route = "home"
 }
