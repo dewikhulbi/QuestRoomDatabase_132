@@ -33,7 +33,6 @@ fun UpdateMhsView(
     val uiState = viewModel.updateUIState
     val snackbarHostState = remember { SnackbarHostState() }
     val coroutineScope = rememberCoroutineScope()
-
     LaunchedEffect(uiState.snackBarMessage) {
         println("LaunchedEffect triggered")
         uiState.snackBarMessage?.let { message ->
