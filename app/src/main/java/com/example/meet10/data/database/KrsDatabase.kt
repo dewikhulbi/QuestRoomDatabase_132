@@ -17,7 +17,6 @@ abstract class KrsDatabase : RoomDatabase(){
     companion object{
         @Volatile //memastika bahwa nilai variabel instance selalu sama di semua thread
         private var Instance: KrsDatabase? = null
-
         fun getDatabase(context: Context):KrsDatabase{
             return (Instance ?: synchronized(this){
                 Room.databaseBuilder(
