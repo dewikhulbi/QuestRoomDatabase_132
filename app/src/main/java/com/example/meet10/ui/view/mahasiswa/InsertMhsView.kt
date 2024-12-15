@@ -219,7 +219,6 @@ fun FormMahasiswa(
                 }
             }
         }
-
         OutlinedTextField(
             modifier = Modifier.fillMaxWidth(),
             value = mahasiswaEvent.angkatan,
