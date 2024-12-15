@@ -77,7 +77,6 @@ data class DetailUiState(
 /*
 Data class untuk menampung data yang akan ditampilkan di UI
 */
-
 //memindahkan data dari entity ke ui
 fun Mahasiswa.toDetailUiEvent () : MahasiswaEvent {
     return MahasiswaEvent(
