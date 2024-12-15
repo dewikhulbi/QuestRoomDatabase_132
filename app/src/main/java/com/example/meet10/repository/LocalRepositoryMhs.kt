@@ -25,4 +25,5 @@ class LocalRepositoryMhs(
     override suspend fun updateMhs(mahasiswa: Mahasiswa) {
         mahasiswaDao.updateMahasiswa(mahasiswa)
     }
+
 }
