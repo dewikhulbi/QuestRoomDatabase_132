@@ -41,7 +41,6 @@ fun TopAppBar(
                 Spacer(modifier = Modifier.weight(2f))
             }
         }
-
         // Teks judul
         Text(
             text = judul,
